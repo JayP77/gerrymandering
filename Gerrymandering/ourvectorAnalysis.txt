@@ -1,0 +1,40 @@
+*********************************************************
+ourvector<12eligibleInfo> stats:
+ # of vectors created:   1
+ # of elements inserted: 50
+ # of elements accessed: 67
+*********************************************************
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   550
+ # of elements inserted: 4438
+ # of elements accessed: 3676
+*********************************************************
+*********************************************************
+ourvector<12districtInfo> stats:
+ # of vectors created:   1
+ # of elements inserted: 50
+ # of elements accessed: 266
+*********************************************************
+
+ourvector<12eligibleInfo> is created just once
+ourvector<12eligibleInfo> inserts 50 elements those 50 elements are the 50 states in the eligible_voters.txt file so each state counts as 1 element inserterted.
+ourvector<12eligibleInfo> is accessed is when using the search function looping through to find the index of the state searched. It also gets accessed when couting eligible voters. It is also accessed in the stats function
+
+ourvector<i> is created 550 times as it is storing the democrating and republican votes and each time an element is pushed back once reaching max size the size gets doubled hence why it is created 550 times.
+ourVector<i> is inserted 4438 times because it inserts voting numbers for both Democrating and Republican in each district of each state. And as there are also 2 ourvector<i> one stores for Republican votes and the other for Democratic.
+ourVector<i> is accessed 3676 times because it is used for many functions it gets accessed in the calculation function it loops through each district for the state searched. It also gets accessed in both the plotting function and the creative component function as it is used to get the total votes number.
+
+ourvector<12districtInfo> is created just onces
+ourvector<12districtInfo> is inserted 50 times as there are 50 states in the districts.txt file meaning each state is insterted one time.
+ourvector<12districtInfo> is accessed 256 times as it is used in the search function to get the index of the state searched. It also gets accessed when couting statenames along with total districts for the state. Also accessed in the calculation, stats, plotting and creative componenet function.
+
+
+
+
+
+
+
+
+
+
